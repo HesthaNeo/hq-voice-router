@@ -10,9 +10,7 @@
     <p><b>Step 4: Configure and Connect HQ LAN Interface G0/0</b></p>
         <p>- A. MGMT Interface VLAN 100</p>
         <p>- B. VOICE Interface VLAN 10</p>
-    <p><b>Step 5: Configure and Connect Private WAN Interface G0/1</b></p>
-        <p>- A. IP Address</p>
-        <p>- B. Disable CDP</p>
+    <p><b>Step 5: Configure Default Route Pointing Back to HQ Core Voice Network HSRP Address</b></p>
     <p><b>Step 6: Configure Private WAN Border Gateway Protocol (BGP) Peering</b></p>
         <p>- A. BGP ASN 65123</p>
             <p>- i. Router ID</p>
