@@ -28,7 +28,6 @@
         <p>- A. IP Address</p>
         <p>- B. Disable CDP</p>
         <p>- C. Apply PSTN Access-List Inbound</p>
-        <p>- D. Apply VPN Crypto Map for Branch 2 VPN</p>
     <p><b>Step 11: Configure Internal Dial-Peers</b></p>
         <p>- A. Branch 1 extensions (2…$)</p>
     <p><b>Step 12: Configure Internal Dial-Peers</b></p>
