@@ -35,7 +35,7 @@
         <p>- B. 7-Digit Local</p>
         <p>- C. International</p>
         <p>- D. 411 & 911</p>
-    <p><b>Step 13: Configure Outbound Translation rules</b> <em>(Lab Configuration Not Supported)</em></p>
+    <p><b>Step 13: Configure Outbound Translation Rules</b> <em>(Lab Configuration Not Supported)</em></p>
     <p><b>Step 14: Configure Inbound Dial-Peers</b> <em>(Lab Configuration Not Supported)</em></p>
     <p><b>Step 15: Configure Inbound Voice Translation Rules</b> <em>(Lab Configuration Not Supported)</em></p>
     <p><b>Step 16: Configure Voice Service VOIP</b> <em>(Lab Configuration Not Supported)</em></p>
