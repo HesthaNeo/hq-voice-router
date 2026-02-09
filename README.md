@@ -21,12 +21,8 @@
         <p>- A. Max-Ephones</p> 
         <p>- B. Max-Dn</p>
         <p>- C. IP Source-Address</p>
-    <p><b>Step 8: Configure IPSec/Isakmp VPN Policy and Cryptography</b></p>
-        <p>- A. Branch 2 Traffic Access List</p>
-        <p>- B. Isakmp Policy</p>
-        <p>- C. Isakmp Key</p>
-        <p>- D. Ipsec SA Lifetime and Transform-Set</p>
-        <p>- E. Ipsec-Isakmp Crypto Map</p>
+    <p><b>Step 8: Configure HQ and Branch 2 Ephone-DNS</b></p>
+        <p>- A. x1001, x1002, x1003, x3001, x3002</p>
     <p><b>Step 9: Configure Access-List to Allow Only VPN Traffic From Branch 2</b></p>
     <p><b>Step 10: Configure and connect Internet interface G0/2</b></p>
         <p>- A. IP Address</p>
