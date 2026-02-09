@@ -24,10 +24,10 @@
     <p><b>Step 8: Configure HQ and Branch 2 Ephone-DNS</b></p>
         <p>- A. x1001, x1002, x1003, x3001, x3002</p>
     <p><b>Step 9: Configure PSTN Access-List</b></p>
-    <p><b>Step 10: Configure and connect Internet interface G0/2</b></p>
+    <p><b>Step 10: Configure PSTN Voice Interface G0/1</b></p>
         <p>- A. IP Address</p>
         <p>- B. Disable CDP</p>
-        <p>- C. Apply VPN Only Access-List Inbound</p>
+        <p>- C. Apply PSTN Access-List Inbound</p>
         <p>- D. Apply VPN Crypto Map for Branch 2 VPN</p>
     <p><b>Step 11: Configure Static Routes</b></p>
         <p>- A. Default Route Pointing to HQ Internet Router DATA Interface IP Address</p>
