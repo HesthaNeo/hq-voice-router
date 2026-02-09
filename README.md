@@ -55,8 +55,8 @@
             <p><em>- After reloading the router, you can see that the uckk9 licensing software was installed successfully.</em></p>
         <h3>Step 4: Configure and Connect HQ LAN Interface G0/0</h3>
             <p>- Next we will configure and connect the LAN facing interface G0/0.</p>
-                <img width="872" height="650" alt="Screenshot 2026-02-08 142613" src="https://github.com/user-attachments/assets/7b7dbc3f-e745-47f7-9efc-b3b2187799dd" />
-            <p><em>- Both MGMT and DATA VLAN interfaces were configured here as well.</em></p>
+                <img width="874" height="652" alt="Screenshot 2026-02-08 200739" src="https://github.com/user-attachments/assets/4023ef4a-9f89-4969-8668-c6d1bdf2c60f" />
+            <p><em>- Both MGMT and VOICE VLAN interfaces were configured here as well.</em></p>
             <p>- Next, using a straight-through cable, we'll connect the LAN interface G0/0 to a trunk port on HQ-CORE-SW2 (i.e. FastEthernet0/20) and verify the port comes online.</p>
                 <img width="1175" height="1033" alt="Screenshot 2026-02-08 143240" src="https://github.com/user-attachments/assets/ccbd187c-d7c2-4623-9521-4f684993ebca" />
                 <img width="874" height="276" alt="Screenshot 2026-02-08 144551" src="https://github.com/user-attachments/assets/4acf6e07-0d13-4d12-a860-b2090fd1e128" />
