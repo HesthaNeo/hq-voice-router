@@ -11,11 +11,12 @@
         <p>- A. MGMT Interface VLAN 100</p>
         <p>- B. VOICE Interface VLAN 10</p>
     <p><b>Step 5: Configure Default Route Pointing Back to HQ Core Voice Network HSRP Address</b></p>
-    <p><b>Step 6: Configure Private WAN Border Gateway Protocol (BGP) Peering</b></p>
-        <p>- A. BGP ASN 65123</p>
-            <p>- i. Router ID</p>
-            <p>- ii. Neighbor</p>
-            <p>- iii. Networks</p>
+    <p><b>Step 6: Configure HQ Voice Network DHCP Services</b></p>
+        <p>- A. Address Exclusions</p>
+        <p>- B. DHCP Pool HQ-VOICE</p>
+            <p>- i. Network</p>
+            <p>- ii. Default-Router</p>
+            <p>- iii. Option 150 IP</p>
     <p><b>Step 7: Configure Private WAN Voice Quality of Service</b></p>
         <p>- A. VOIP Control and RTP Access-Lists</p> 
         <p>- B. VOIP Control and RTP Class-Maps</p>
