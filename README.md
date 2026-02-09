@@ -50,10 +50,9 @@
                 <img width="868" height="985" alt="Screenshot 2026-02-08 195304" src="https://github.com/user-attachments/assets/758d7f29-d757-4e76-8cbd-d2838b825bb7" />
         <h3>Step 3: Install uck9 License</h3>
             <p>- Next we will activate the Unified Communications Licensing 60 day grace period on the 2911 Router. We do this to unlock voice and telephony features. Without it, the router cannot perform functions like VoIP, call routing (dial-peers), or utilizing voice modules (PVDMs).</p>
-                <img width="2559" height="824" alt="Screenshot 2026-02-08 141925" src="https://github.com/user-attachments/assets/6e9b69d6-8d99-4f79-9fc6-761765e184b4" />
-                <img width="2559" height="1267" alt="Screenshot 2026-02-08 142031" src="https://github.com/user-attachments/assets/50124ebc-70df-4843-98bc-678e2e20c2f1" />
-                <img width="2559" height="1597" alt="Screenshot 2026-02-08 142112" src="https://github.com/user-attachments/assets/698d3e75-98f8-48ed-932f-6bdf07910127" />
-            <p><em>- After reloading the router, you can see that the securityk9 licensing software was installed successfully.</em></p>
+                <img width="873" height="936" alt="Screenshot 2026-02-08 200133" src="https://github.com/user-attachments/assets/4124dce9-7697-4e44-a347-c0c953cdc82a" />
+                <img width="866" height="1161" alt="Screenshot 2026-02-08 200330" src="https://github.com/user-attachments/assets/e79e1e45-dec1-4183-a1c9-4b901cd241a7" />
+            <p><em>- After reloading the router, you can see that the uckk9 licensing software was installed successfully.</em></p>
         <h3>Step 4: Configure and Connect HQ LAN Interface G0/0</h3>
             <p>- Next we will configure and connect the LAN facing interface G0/0.</p>
                 <img width="872" height="650" alt="Screenshot 2026-02-08 142613" src="https://github.com/user-attachments/assets/7b7dbc3f-e745-47f7-9efc-b3b2187799dd" />
