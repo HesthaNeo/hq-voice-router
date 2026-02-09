@@ -5,7 +5,7 @@
     <p>Fifth phase, we will install 1 CISCO2911/K9 with ipbasek9 and uck9 licensing to act as the local call control for HQ and Branch 2 as well as the HQ PSTN Gateway.</p>
     <h2><strong><u>Configuration Steps</u></strong></h2>
     <p><b>Step 1: Rack, Mount, and Power On The Cisco 2911 Router</b></p>
-    <p><b>Step 2: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</b></p>
+    <p><b>Step 2: Basic Router Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</b></p>
     <p><b>Step 3: Install uck9 License</b></p>
     <p><b>Step 4: Configure and Connect HQ LAN Interface G0/0</b></p>
         <p>- A. MGMT Interface VLAN 100</p>
@@ -45,8 +45,8 @@
         <h3>Step 1: Rack, Mount, and Power On The Cisco 2911 Router</h3>
             <p>- First, we'll Add a 2901 Router to the topology by dragging and dropping it into the Headquarters section of the lab. We'll place the 2911 Router in the right side area of HQ and label it as “HQ-VOICE-RTR”.</p>
                 <img width="1172" height="979" alt="Screenshot 2026-02-08 195053" src="https://github.com/user-attachments/assets/60fc79b1-688f-4e28-8d4b-82e961a5c43a" />
-        <h3>Step 2: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</h3>
-            <p>- In this step, we did basic configuration for both of the switches including changing their hostnames, setting their time zones, enabling SSH, setting domain names, adding securiting to console and vty lines for SSH, and creating user profiles with a password the devices</p>
+        <h3>Step 2: Basic Router Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</h3>
+            <p>- In this step, we did basic configuration for the router including changing the hostname, setting the time zone, enabling SSH, setting domain name, adding securiting to console and vty lines for SSH, and creating user profiles with a password the devices.</p>
                 <img width="868" height="985" alt="Screenshot 2026-02-08 195304" src="https://github.com/user-attachments/assets/758d7f29-d757-4e76-8cbd-d2838b825bb7" />
         <h3>Step 3: Install uck9 License</h3>
             <p>- Next we will activate the security licensing 60 day grace period on the 2901 Router. We do this to unlock advanced security features, primarily for setting up VPNs (IPsec), secure communication, and enhanced firewall functionality.</p>
