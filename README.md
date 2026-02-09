@@ -30,7 +30,9 @@
         <p>- C. Apply PSTN Access-List Inbound</p>
         <p>- D. Apply VPN Crypto Map for Branch 2 VPN</p>
     <p><b>Step 11: Configure Internal Dial-Peers</b></p>
-        <p>- A. Default Route Pointing to HQ Internet Router DATA Interface IP Address</p>
+        <p>- A. Branch 1 extensions (2…$)</p>
+    <p><b>Step 12: Configure Internal Dial-Peers</b></p>
+        <p>- A. Branch 1 extensions (2…$)</p>
         <p>- B. Route to HQ Voice Network Pointing to HQ Core Switch Voice Network HSRP Address</p>
         <p>- C. Route to Branch 2 Public IP Address via Internet Gateway Public IP</p>
         <p>- D. Routes to Branch 2 Private Networks via Branch 2 Public IP</p>
