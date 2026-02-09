@@ -47,7 +47,7 @@
                 <img width="1172" height="979" alt="Screenshot 2026-02-08 195053" src="https://github.com/user-attachments/assets/60fc79b1-688f-4e28-8d4b-82e961a5c43a" />
         <h3>Step 2: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</h3>
             <p>- In this step, we did basic configuration for both of the switches including changing their hostnames, setting their time zones, enabling SSH, setting domain names, adding securiting to console and vty lines for SSH, and creating user profiles with a password the devices</p>
-                <img width="871" height="980" alt="Screenshot 2026-02-08 141447" src="https://github.com/user-attachments/assets/e1ef04ae-0ddc-40c7-9f86-1b93f42bd98c" />
+                <img width="868" height="985" alt="Screenshot 2026-02-08 195304" src="https://github.com/user-attachments/assets/758d7f29-d757-4e76-8cbd-d2838b825bb7" />
         <h3>Step 3: Install uck9 License</h3>
             <p>- Next we will activate the security licensing 60 day grace period on the 2901 Router. We do this to unlock advanced security features, primarily for setting up VPNs (IPsec), secure communication, and enhanced firewall functionality.</p>
                 <img width="2559" height="824" alt="Screenshot 2026-02-08 141925" src="https://github.com/user-attachments/assets/6e9b69d6-8d99-4f79-9fc6-761765e184b4" />
