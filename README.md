@@ -61,8 +61,8 @@
                 <img width="1181" height="993" alt="Screenshot 2026-02-08 201116" src="https://github.com/user-attachments/assets/5e6e210a-74fb-42b4-bd23-1749358977ce" />
                 <img width="875" height="382" alt="Screenshot 2026-02-08 201255" src="https://github.com/user-attachments/assets/a885e92c-abe7-4370-8495-78d226437363" />
         <h3>Step 5: Configure Default Route Pointing Back to HQ Core Voice Network HSRP Address</h3>
-            <p>- Next we will configure and connect the private WAN interface.</p>
-                <img width="874" height="403" alt="Screenshot 2026-02-08 144842" src="https://github.com/user-attachments/assets/aefbee72-12bc-4b84-9ac0-a6b825611801" />
+            <p>- Next we will configure a default route that points to the core switch. This will be the only route required on this voice router.</p>
+                <img width="875" height="401" alt="image" src="https://github.com/user-attachments/assets/49de5676-5941-4cc5-b658-e33383f4c335" />
             <p><em>- Using the "speed 100" command, we effectively set our speed to 100Mbps matching the ISP router interface. Command "bandwidth 50000" sets the bandwidth reference in kilobits (=50Mbps). We also want to ensure no cdp messages are sent to the provider network, so we execute "no cdp enable" command.</em></p>
             <p>- Next, using an ethernet cross-over cable, we'll connect the private WAN interface G0/1 to the PRIVATE WAN CLOUD router interface FastEthernet0/0.</p>
                 <img width="1183" height="973" alt="Screenshot 2026-02-08 145302" src="https://github.com/user-attachments/assets/fcffc9ed-34cd-4547-801e-b1d8086b47c5" />
