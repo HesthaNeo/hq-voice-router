@@ -62,12 +62,7 @@
                 <img width="875" height="382" alt="Screenshot 2026-02-08 201255" src="https://github.com/user-attachments/assets/a885e92c-abe7-4370-8495-78d226437363" />
         <h3>Step 5: Configure Default Route Pointing Back to HQ Core Voice Network HSRP Address</h3>
             <p>- Next we will configure a default route that points to the core switch. This will be the only route required on this voice router.</p>
-                <img width="875" height="401" alt="image" src="https://github.com/user-attachments/assets/49de5676-5941-4cc5-b658-e33383f4c335" />
-            <p><em>- Using the "speed 100" command, we effectively set our speed to 100Mbps matching the ISP router interface. Command "bandwidth 50000" sets the bandwidth reference in kilobits (=50Mbps). We also want to ensure no cdp messages are sent to the provider network, so we execute "no cdp enable" command.</em></p>
-            <p>- Next, using an ethernet cross-over cable, we'll connect the private WAN interface G0/1 to the PRIVATE WAN CLOUD router interface FastEthernet0/0.</p>
-                <img width="1183" height="973" alt="Screenshot 2026-02-08 145302" src="https://github.com/user-attachments/assets/fcffc9ed-34cd-4547-801e-b1d8086b47c5" />
-                <img width="868" height="433" alt="Screenshot 2026-02-08 145438" src="https://github.com/user-attachments/assets/2d17e92b-7753-44a4-8b2d-1650654cec1f" />
-            <p><em>- As you can see, we are able to successfully ping the private WAN cloud router.</em></p>       
+                <img width="875" height="401" alt="Screenshot 2026-02-08 201713" src="https://github.com/user-attachments/assets/83da3e0e-9bd4-455b-82e6-4daba2c6e72d" />
         <h3>Step 6: Configure HQ Voice Network DHCP Services</h3>
             <p>- Next we will configure the BGP router ID and set up peering with the provider router.</p>
                 <img width="871" height="244" alt="Screenshot 2026-02-08 180121" src="https://github.com/user-attachments/assets/fbeda697-9903-4118-9b78-93b1b48dd3e2" />
