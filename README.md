@@ -49,7 +49,7 @@
             <p>- In this step, we did basic configuration for the router including changing the hostname, setting the time zone, enabling SSH, setting domain name, adding securiting to console and vty lines for SSH, and creating user profiles with a password the devices.</p>
                 <img width="868" height="985" alt="Screenshot 2026-02-08 195304" src="https://github.com/user-attachments/assets/758d7f29-d757-4e76-8cbd-d2838b825bb7" />
         <h3>Step 3: Install uck9 License</h3>
-            <p>- Next we will activate the security licensing 60 day grace period on the 2901 Router. We do this to unlock advanced security features, primarily for setting up VPNs (IPsec), secure communication, and enhanced firewall functionality.</p>
+            <p>- Next we will activate the Unified Communications Licensing 60 day grace period on the 2911 Router. We do this to unlock voice and telephony features. Without it, the router cannot perform functions like VoIP, call routing (dial-peers), or utilizing voice modules (PVDMs).</p>
                 <img width="2559" height="824" alt="Screenshot 2026-02-08 141925" src="https://github.com/user-attachments/assets/6e9b69d6-8d99-4f79-9fc6-761765e184b4" />
                 <img width="2559" height="1267" alt="Screenshot 2026-02-08 142031" src="https://github.com/user-attachments/assets/50124ebc-70df-4843-98bc-678e2e20c2f1" />
                 <img width="2559" height="1597" alt="Screenshot 2026-02-08 142112" src="https://github.com/user-attachments/assets/698d3e75-98f8-48ed-932f-6bdf07910127" />
