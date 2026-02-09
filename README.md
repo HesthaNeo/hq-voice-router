@@ -48,7 +48,7 @@
         <h3>Step 2: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</h3>
             <p>- In this step, we did basic configuration for both of the switches including changing their hostnames, setting their time zones, enabling SSH, setting domain names, adding securiting to console and vty lines for SSH, and creating user profiles with a password the devices</p>
                 <img width="871" height="980" alt="Screenshot 2026-02-08 141447" src="https://github.com/user-attachments/assets/e1ef04ae-0ddc-40c7-9f86-1b93f42bd98c" />
-        <h3>Step 3: Install Securityk9 License</h3>
+        <h3>Step 3: Install uck9 License</h3>
             <p>- Next we will activate the security licensing 60 day grace period on the 2901 Router. We do this to unlock advanced security features, primarily for setting up VPNs (IPsec), secure communication, and enhanced firewall functionality.</p>
                 <img width="2559" height="824" alt="Screenshot 2026-02-08 141925" src="https://github.com/user-attachments/assets/6e9b69d6-8d99-4f79-9fc6-761765e184b4" />
                 <img width="2559" height="1267" alt="Screenshot 2026-02-08 142031" src="https://github.com/user-attachments/assets/50124ebc-70df-4843-98bc-678e2e20c2f1" />
@@ -61,7 +61,7 @@
             <p>- Next, using a straight-through cable, we'll connect the LAN interface G0/0 to a trunk port on HQ-CORE-SW2 (i.e. FastEthernet0/20) and verify the port comes online.</p>
                 <img width="1175" height="1033" alt="Screenshot 2026-02-08 143240" src="https://github.com/user-attachments/assets/ccbd187c-d7c2-4623-9521-4f684993ebca" />
                 <img width="874" height="276" alt="Screenshot 2026-02-08 144551" src="https://github.com/user-attachments/assets/4acf6e07-0d13-4d12-a860-b2090fd1e128" />
-        <h3>Step 5: Configure and Connect Private WAN Interface G0/1</h3>
+        <h3>Step 5: Configure Default Route Pointing Back to HQ Core Voice Network HSRP Address</h3>
             <p>- Next we will configure and connect the private WAN interface.</p>
                 <img width="874" height="403" alt="Screenshot 2026-02-08 144842" src="https://github.com/user-attachments/assets/aefbee72-12bc-4b84-9ac0-a6b825611801" />
             <p><em>- Using the "speed 100" command, we effectively set our speed to 100Mbps matching the ISP router interface. Command "bandwidth 50000" sets the bandwidth reference in kilobits (=50Mbps). We also want to ensure no cdp messages are sent to the provider network, so we execute "no cdp enable" command.</em></p>
@@ -69,7 +69,7 @@
                 <img width="1183" height="973" alt="Screenshot 2026-02-08 145302" src="https://github.com/user-attachments/assets/fcffc9ed-34cd-4547-801e-b1d8086b47c5" />
                 <img width="868" height="433" alt="Screenshot 2026-02-08 145438" src="https://github.com/user-attachments/assets/2d17e92b-7753-44a4-8b2d-1650654cec1f" />
             <p><em>- As you can see, we are able to successfully ping the private WAN cloud router.</em></p>       
-        <h3>Step 6: Configure Private WAN Border Gateway Protocol (BGP) Peering</h3>
+        <h3>Step 6: Configure HQ Voice Network DHCP Services</h3>
             <p>- Next we will configure the BGP router ID and set up peering with the provider router.</p>
                 <img width="871" height="244" alt="Screenshot 2026-02-08 180121" src="https://github.com/user-attachments/assets/fbeda697-9903-4118-9b78-93b1b48dd3e2" />
             <p><em>- Command "router bgp 65123" enters the BGP configuration for autonomous system #65123. The "bgp router-id" command will force the router to use g0/1 IP as the BGP ID. The command "neighbor 192.168.250.1 remote-as 65535" effectively configures BGP peering.</em></p>
@@ -84,7 +84,7 @@
             <p><em>- network 10.10.30.0 mask 255.255.255.0 <b>(Advertises B2 VOICE)</b></em></p>
             <p><em>- Our BGP verification config:</em></p>
                 <img width="2559" height="1599" alt="Screenshot 2026-02-08 152526" src="https://github.com/user-attachments/assets/0cb578e0-d2ea-48e1-913e-bc8fbc011de0" />
-        <h3>Step 7: Configure Private WAN Voice Quality of Service</h3>https://github.com/HesthaNeo/hq-wan-router/blob/main/README.md
+        <h3>Step 7: Configure Telephony-Service</h3>
         <h3>Step 8: Configure IPSec/Isakmp VPN Policy and Cryptography</h3>
             <p>- Next, we will set up VPN policy and crypto map for IPSec site-to-site VPN to Branch 2.</p>
                 <p>- A: We will start by configuring ISAMKP policy.</p>
