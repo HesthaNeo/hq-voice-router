@@ -17,11 +17,10 @@
             <p>- i. Network</p>
             <p>- ii. Default-Router</p>
             <p>- iii. Option 150 IP</p>
-    <p><b>Step 7: Configure Private WAN Voice Quality of Service</b></p>
-        <p>- A. VOIP Control and RTP Access-Lists</p> 
-        <p>- B. VOIP Control and RTP Class-Maps</p>
-        <p>- C. Policy-Map</p>
-        <p>- D. Apply Policy-Map to Private WAN Interface G0/1</p>
+    <p><b>Step 7: Configure Telephony-Service</b></p>
+        <p>- A. Max-Ephones</p> 
+        <p>- B. Max-Dn</p>
+        <p>- C. IP Source-Address</p>
     <p><b>Step 8: Configure IPSec/Isakmp VPN Policy and Cryptography</b></p>
         <p>- A. Branch 2 Traffic Access List</p>
         <p>- B. Isakmp Policy</p>
