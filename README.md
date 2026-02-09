@@ -32,9 +32,9 @@
         <p>- A. Branch 1 extensions (2…$)</p>
     <p><b>Step 12: Configure Internal Dial-Peers</b></p>
         <p>- A. 10-Digit Long Distance and Toll-Free</p>
-        <p>- B. Route to HQ Voice Network Pointing to HQ Core Switch Voice Network HSRP Address</p>
-        <p>- C. Route to Branch 2 Public IP Address via Internet Gateway Public IP</p>
-        <p>- D. Routes to Branch 2 Private Networks via Branch 2 Public IP</p>
+        <p>- B. 7-Digit Local</p>
+        <p>- C. International</p>
+        <p>- D. 411 & 911</p>
     <h2><strong><u>Implementation</u></strong></h2>
         <h3>Step 1: Rack, Mount, and Power On The Cisco 2911 Router</h3>
             <p>- First, we'll Add a 2901 Router to the topology by dragging and dropping it into the Headquarters section of the lab. We'll place the 2911 Router in the right side area of HQ and label it as “HQ-WAN-RTR”.</p>
