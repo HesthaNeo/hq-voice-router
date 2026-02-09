@@ -2,7 +2,7 @@
 <img width="805" height="255" alt="Screenshot 2026-02-08 192514" src="https://github.com/user-attachments/assets/527a5057-3b75-496b-aca8-b91ccd1d2e04" />
 </p>
 <h1><u>Milestone 6: HQ Voice Router</u></h1>
-    <p>Fifth phase, we will install 1 CISCO2911/K9 with ipbasek9 and securityk9 licensing. This router will act as the gateway for all WAN services that connect Headquarters to Branch 1 and Branch 2. This includes a Private WAN connection to Branch 1 via the WAN service provider using BGP peering. In addition, a second internet service will be connected to this router solely for the purpose of creating an IPSec Site to Site (L2L) Virtual Private Network connection.</p>
+    <p>Fifth phase, we will install 1 CISCO2911/K9 with ipbasek9 and uck9 licensing to act as the local call control for HQ and Branch 2 as well as the HQ PSTN Gateway.</p>
     <h2><strong><u>Configuration Steps</u></strong></h2>
     <p><b>Step 1: Rack, Mount, and Power On The Cisco 2911 Router</b></p>
     <p><b>Step 2: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</b></p>
