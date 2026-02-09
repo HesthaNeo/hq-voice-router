@@ -43,7 +43,7 @@
     <p><b>Step 18: Configure DSP Services</b> <em>(Lab Configuration Not Supported)</em></p>
     <h2><strong><u>Implementation</u></strong></h2>
         <h3>Step 1: Rack, Mount, and Power On The Cisco 2911 Router</h3>
-            <p>- First, we'll Add a 2901 Router to the topology by dragging and dropping it into the Headquarters section of the lab. We'll place the 2911 Router in the right side area of HQ and label it as “HQ-WAN-RTR”.</p>
+            <p>- First, we'll Add a 2901 Router to the topology by dragging and dropping it into the Headquarters section of the lab. We'll place the 2911 Router in the right side area of HQ and label it as “HQ-VOICE-RTR”.</p>
                 <img width="1178" height="1001" alt="Screenshot 2026-02-08 141321" src="https://github.com/user-attachments/assets/c6363b3b-3940-4fda-a02f-ffe1e280f30f" />
         <h3>Step 2: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</h3>
             <p>- In this step, we did basic configuration for both of the switches including changing their hostnames, setting their time zones, enabling SSH, setting domain names, adding securiting to console and vty lines for SSH, and creating user profiles with a password the devices</p>
