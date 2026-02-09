@@ -57,7 +57,7 @@
             <p>- Next we will configure and connect the LAN facing interface G0/0.</p>
                 <img width="874" height="652" alt="Screenshot 2026-02-08 200739" src="https://github.com/user-attachments/assets/4023ef4a-9f89-4969-8668-c6d1bdf2c60f" />
             <p><em>- Both MGMT and VOICE VLAN interfaces were configured here as well.</em></p>
-            <p>- Next, using a straight-through cable, we'll connect the LAN interface G0/0 to a trunk port on HQ-CORE-SW2 (i.e. FastEthernet0/20) and verify the port comes online.</p>
+            <p>- Next, using a straight-through cable connect the LAN interface G0/0 to a trunk port on HQ-CORE-SW2 (i.e. FastEthernet0/21) and verify the port comes online.</p>
                 <img width="1175" height="1033" alt="Screenshot 2026-02-08 143240" src="https://github.com/user-attachments/assets/ccbd187c-d7c2-4623-9521-4f684993ebca" />
                 <img width="874" height="276" alt="Screenshot 2026-02-08 144551" src="https://github.com/user-attachments/assets/4acf6e07-0d13-4d12-a860-b2090fd1e128" />
         <h3>Step 5: Configure Default Route Pointing Back to HQ Core Voice Network HSRP Address</h3>
